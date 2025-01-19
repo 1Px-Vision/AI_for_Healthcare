@@ -165,3 +165,6 @@ The dataset includes male and female patients ranging in age from 1 to 100 years
 
 #### Ground Truth Acquisition Methodology
 A silver standard for radiological interpretation will be established based on expert radiologist readings.
+
+## Included in this repository
+The project introduces the following modified files:

@@ -52,3 +52,13 @@ The dataset includes 14 common thoracic pathologies, derived using Natural Langu
 The biggest limitation of this dataset is that labels were extracted using NLP, meaning there may be some inaccuracies. However, the estimated accuracy of the NLP-based labeling exceeds 90%. The original radiology reports are not publicly available, but additional details on the labeling process can be found [here](https://arxiv.org/abs/1705.02315) (provide the actual link).
 
 ## Algorithm Description
+
+### General Information
+**Intended Use Statement:**
+This system is designed to assist radiologists in detecting pneumonia in chest X-ray images, specifically in PA/AP views.
+
+**Indications for Use:**
+The device is suitable for both male and female patients aged 1 to 100 years. It can also analyze cases where pneumonia coexists with other conditions, including Atelectasis, Cardiomegaly, Consolidation, Edema, Effusion, Emphysema, Fibrosis, Hernia, Infiltration, Mass, Nodule, Pleural Thickening, and Pneumothorax.
+
+**Device Limitations:**
+A high-performance GPU is required to run the Algorithm efficiently.

@@ -92,7 +92,7 @@ Perform three verification checks on the DICOM image:
 
 #### Model Parameters:
 
-Data Augmentation:
+##### Data Augmentation:
 
 * Horizontal Flip
 * Height Shift Range: 0.1
@@ -100,6 +100,27 @@ Data Augmentation:
 * Rotation Range: 20°
 * Shear Range: 0.1
 * Zoom Range: 0.1
+
+##### Training Configuration:
+
+* Batch Size: 32
+* Optimizer Learning Rate: 3e-4
+
+##### Pre-trained Model Adjustments:
+
+* Frozen Layers: First 20 layers
+* Fine-Tuned Layers: None
+
+##### Additional Layers:
+
+* Flatten
+* Dropout (0.5)
+* Dense (1024, Activation: ReLU)
+* Dropout (0.5)
+* Dense (512, Activation: ReLU)
+* Dropout (0.5)
+* Dense (256, Activation: ReLU)
+* Dense (1, Activation: Sigmoid)
 
 ![Result_P](https://github.com/1Px-Vision/AI_for_Healthcare/blob/main/Project%20Pneumonia%20Detection%20from%20Chest%20X-Rays/Result_P.jpg)
 

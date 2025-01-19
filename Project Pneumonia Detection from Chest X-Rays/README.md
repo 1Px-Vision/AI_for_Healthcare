@@ -168,3 +168,8 @@ A silver standard for radiological interpretation will be established based on e
 
 ## Included in this repository
 The project introduces the following modified files:
+
+* Build and train model.ipynb
+* EDA.ipynb
+* Inference.ipynb
+* my_model.json

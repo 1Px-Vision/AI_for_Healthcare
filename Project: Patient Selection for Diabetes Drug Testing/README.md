@@ -18,3 +18,8 @@ Develop a regression model to predict a patient's expected hospitalization time 
 * **Key Considerations:**
      - **Feature Engineering:** Extract and preprocess key medical code sets to ensure effective data representation at the encounter level.
      - **Bias Analysis:** Evaluate the model for potential biases across key demographic groups to ensure fair and ethical patient selection.
+
+
+## Dataset Information
+
+Due to healthcare regulations, including PHI protections under HIPAA and HITECH, publicly available datasets are limited, and some require prior training and approval for access. For this exercise, we are using a modified [dataset](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) from UC Irvine, specifically adapted for this course. Please note that this dataset has certain limitations, particularly in its representation of key features such as diagnosis codes. In real-world scenarios, these codes are typically presented as an unordered list in 835/837 HL7 standard interchange formats used for claims and remittances.

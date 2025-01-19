@@ -1,1 +1,5 @@
+# Project: Hippocampal Volume Quantification in Alzheimer's Progression
 
+## Alzheimer's Disease (AD) and Its Progression
+
+Alzheimer's disease (AD) is a progressive neurodegenerative disorder that impairs neuronal function and ultimately leads to cell death. It is the most common cause of dementia and is clinically characterized by memory loss, difficulty acquiring new information, language impairment, and other cognitive deficits. For patients displaying early symptoms, monitoring disease progression over time is essential for guiding therapy and managing the condition effectively. MRI-based radiological studies represent one of the most advanced methods for quantifying disease progression. In particular, hippocampal volume measurement has proven to be a valuable biomarker for diagnosing and tracking the progression of various brain disorders, especially AD. Research has consistently shown a reduction in hippocampal volume among AD patients. The hippocampus is a crucial brain structure in humans and other vertebrates, playing a key role in consolidating short-term memories into long-term storage.

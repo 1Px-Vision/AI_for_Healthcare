@@ -99,10 +99,10 @@ The dataset includes male and female patients ranging in age from 1 to 100 years
 * Pleural Thickening
 * Pneumothorax
 
-## X-Ray DICOM File Requirements
+#### X-Ray DICOM File Requirements
 * **Patient Position:** AP or PA
 * **Image Type:** DX
 * **Body Part Examined:** CHEST
 
-## Ground Truth Acquisition Methodology
+#### Ground Truth Acquisition Methodology
 A silver standard for radiological interpretation will be established based on expert radiologist readings.

@@ -4,6 +4,13 @@
 
 In this project, you will leverage the skills gained in this 2D medical imaging course to analyze data from the NIH Chest X-ray Dataset and train a CNN to classify chest X-rays for the presence or absence of pneumonia. The goal is to develop a model capable of detecting pneumonia with accuracy comparable to that of human radiologists, with the potential for submission to the FDA for 510(k) clearance as a software-based medical device. As part of the submission process, you will formally document your model, including details of the training dataset and a validation plan that meets FDA requirements. You will be provided with medical images labeled with clinical diagnoses extracted from corresponding radiology reports. Additionally, the project includes access to a GPU for efficient deep-learning model training and a dataset of 112,000 chest X-rays with disease annotations from 30,000 patients.
 
+In this project:
+
+* Distill data that are useful for training algorithms to detect pneumonia from a giant set of chest x-ray images taken from actual patients.
+* Build a CNN model to detect the presence or absence of pneumonia.
+* Build wrappers that read medical images from their real-world clinical formats (DICOM).
+* Write up a documentation & validation plan of your algorithm for FDA 510(k) submission.
+
 ![Chest_X_Ray](https://github.com/1Px-Vision/AI_for_Healthcare/blob/main/Project%20Pneumonia%20Detection%20from%20Chest%20X-Rays/Chest_X_Ray.jpg)
 
 ## Chest X-ray Examinations and Pneumonia Diagnosis: A Deep Learning Perspective

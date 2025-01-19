@@ -74,6 +74,20 @@ A high-performance GPU is required to run the Algorithm efficiently.
 
 ### 2. Algorithm Design and Function
 
+#### DICOM Verification and Preprocessing Steps
+DICOM Checking Steps
+Perform three verification checks on the DICOM image:
+
+* **Patient Position:** Only images in the AP (Anteroposterior) or PA (Posteroanterior) view will be processed.
+* **Modality Check:** Only DX (Digital Radiography) images will be accepted.
+* **Body Part Examined:** Only chest X-ray images will be processed.
+
+#### Preprocessing Steps:
+
+1. Rescale the image by dividing pixel values by 255.0.
+2. Normalize the image using the mean and standard deviation obtained from the training dataset.
+3. Resize the image to (1, 224, 224, 3) to match the network input requirements.
+
 ### 3. Algorithm Training
 
 ### 4. Databases

@@ -14,3 +14,7 @@ Develop a regression model to predict a patient's expected hospitalization time 
 * **Binary Classification:** Convert the regression output into a binary decision:
      - Include patients expected to stay for 5-7 days.
      - Exclude patients who are unlikely to meet this requirement
+
+* **Key Considerations:**
+* **Feature Engineering:** Extract and preprocess key medical code sets to ensure effective data representation at the encounter level.
+* **Bias Analysis:** Evaluate the model for potential biases across key demographic groups to ensure fair and ethical patient selection.

@@ -53,7 +53,7 @@ The biggest limitation of this dataset is that labels were extracted using NLP, 
 
 ## Algorithm Description
 
-### General Information
+### 1. General Information
 **Intended Use Statement:**
 This system is designed to assist radiologists in detecting pneumonia in chest X-ray images, specifically in PA/AP views.
 

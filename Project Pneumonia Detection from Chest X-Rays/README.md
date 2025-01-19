@@ -23,4 +23,31 @@ To address these challenges, clinical diagnostic validation typically involves m
 
 The dataset provided for this project was curated by the National Institutes of Health (NIH) to address the challenge of limited large-scale X-ray datasets with ground truth labels. These labels are essential for developing disease detection Algorithms. The dataset is pre-mounted in the Udacity Jupyter GPU workspace, along with code for data loading. Alternatively, you can download it from [Kaggle](https://www.kaggle.com/datasets/nih-chest-xrays/data) to run it locally. However, it is strongly recommended to use the Udacity workspace due to the dataset’s large size and the need for GPU acceleration during training.
 
+## Dataset Summary
+* Total Images: 112,120 frontal-view chest X-ray images
+* Unique Patients: 30,805
+* Resolution: 1024 × 1024 pixels
+* File Format: PNG
+* Metadata File: ````Data_Entry_2017.csv```` (includes Image Index, Finding Labels, Patient ID, Age, Gender, View Position, and Image Properties)
+
+## Disease Labels
+The dataset includes 14 common thoracic pathologies, derived using Natural Language Processing (NLP) from radiology reports:
+
+* Atelectasis
+* Consolidation
+* Infiltration
+* Pneumothorax
+* Edema
+* Emphysema
+* Fibrosis
+* Effusion
+* Pneumonia
+* Pleural Thickening
+* Cardiomegaly
+* Nodule
+* Mass
+* Hernia
+* Limitations
+  
+The biggest limitation of this dataset is that labels were extracted using NLP, meaning there may be some inaccuracies. However, the estimated accuracy of the NLP-based labeling exceeds 90%. The original radiology reports are not publicly available, but additional details on the labeling process can be found [here](https://arxiv.org/abs/1705.02315) (provide the actual link).
 

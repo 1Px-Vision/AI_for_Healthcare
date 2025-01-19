@@ -90,6 +90,17 @@ Perform three verification checks on the DICOM image:
 
 ### 3. Algorithm Training
 
+#### Model Parameters:
+
+Data Augmentation:
+
+* Horizontal Flip
+* Height Shift Range: 0.1
+* Width Shift Range: 0.1
+* Rotation Range: 20°
+* Shear Range: 0.1
+* Zoom Range: 0.1
+
 ### 4. Databases
 
 The dataset consists of 112,120 X-ray images, with only 1,430 (1.27%) identified as Pneumonia Positive. To ensure an effective training and validation split, the following approach will be taken:

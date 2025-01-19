@@ -51,3 +51,4 @@ The dataset includes 14 common thoracic pathologies, derived using Natural Langu
   
 The biggest limitation of this dataset is that labels were extracted using NLP, meaning there may be some inaccuracies. However, the estimated accuracy of the NLP-based labeling exceeds 90%. The original radiology reports are not publicly available, but additional details on the labeling process can be found [here](https://arxiv.org/abs/1705.02315) (provide the actual link).
 
+## Algorithm Description

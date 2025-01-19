@@ -62,3 +62,16 @@ The device is suitable for both male and female patients aged 1 to 100 years. It
 
 **Device Limitations:**
 A high-performance GPU is required to run the Algorithm efficiently.
+
+### 2. Algorithm Design and Function
+
+### 3. Algorithm Training
+
+### 4. Databases
+
+The dataset consists of 112,120 X-ray images, with only 1,430 (1.27%) identified as Pneumonia Positive. To ensure an effective training and validation split, the following approach will be taken:
+
+* **Positive Case Selection:** Include all 1,430 Pneumonia-positive images.
+* **Training and Validation Split:** Allocate 80% of the positive cases for training and 20% for validation.
+* **Training Dataset:** Balance the number of negative and positive cases to create a well-proportioned training set.
+* **Validation Dataset:** Maintain a 4:1 ratio of negative to positive cases to better reflect real-world clinical conditions.

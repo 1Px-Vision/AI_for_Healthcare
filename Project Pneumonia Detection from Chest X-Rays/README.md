@@ -19,3 +19,8 @@ Diagnosing pneumonia from chest X-rays presents several challenges:
 
 To address these challenges, clinical diagnostic validation typically involves multiple approaches. These include sputum cultures to detect bacterial or viral pathogens, a thorough review of the patient's medical history and demographic factors, and comparative analysis with previous chest X-rays, if available. By integrating deep learning models into this diagnostic workflow, the accuracy and efficiency of pneumonia detection could be significantly improved.
 
+## Project Dataset Overview
+
+The dataset provided for this project was curated by the National Institutes of Health (NIH) to address the challenge of limited large-scale X-ray datasets with ground truth labels. These labels are essential for developing disease detection Algorithms. The dataset is pre-mounted in the Udacity Jupyter GPU workspace, along with code for data loading. Alternatively, you can download it from [Kaggle](https://www.kaggle.com/datasets/nih-chest-xrays/data) to run it locally. However, it is strongly recommended to use the Udacity workspace due to the dataset’s large size and the need for GPU acceleration during training.
+
+

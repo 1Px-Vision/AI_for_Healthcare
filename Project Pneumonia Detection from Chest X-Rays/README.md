@@ -75,3 +75,34 @@ The dataset consists of 112,120 X-ray images, with only 1,430 (1.27%) identified
 * **Training and Validation Split:** Allocate 80% of the positive cases for training and 20% for validation.
 * **Training Dataset:** Balance the number of negative and positive cases to create a well-proportioned training set.
 * **Validation Dataset:** Maintain a 4:1 ratio of negative to positive cases to better reflect real-world clinical conditions.
+
+### 5. Ground Truth
+The ground truth consists of labels derived from NLP processing. However, at this stage, NLP is not advanced enough to capture all the information present in the reports, resulting in an accuracy of approximately 90%.
+
+### 6. FDA Validation Plan
+
+**Patient Population Description for FDA Validation Dataset**
+
+The dataset includes male and female patients ranging in age from 1 to 100 years. The gender distribution is slightly skewed toward male patients, with an approximate male-to-female ratio of 1.2. Patients in the dataset may present with pneumonia and one or more of the following comorbid conditions:
+
+* Atelectasis
+* Cardiomegaly
+* Consolidation
+* Edema
+* Effusion
+* Emphysema
+* Fibrosis
+* Hernia
+* Infiltration
+* Mass
+* Nodule
+* Pleural Thickening
+* Pneumothorax
+
+## X-Ray DICOM File Requirements
+* **Patient Position:** AP or PA
+* **Image Type:** DX
+* **Body Part Examined:** CHEST
+
+## Ground Truth Acquisition Methodology
+A silver standard for radiological interpretation will be established based on expert radiologist readings.

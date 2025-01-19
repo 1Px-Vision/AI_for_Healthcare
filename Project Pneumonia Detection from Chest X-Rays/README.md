@@ -101,6 +101,8 @@ Data Augmentation:
 * Shear Range: 0.1
 * Zoom Range: 0.1
 
+![Result_P](https://github.com/1Px-Vision/AI_for_Healthcare/blob/main/Project%20Pneumonia%20Detection%20from%20Chest%20X-Rays/Result_P.jpg)
+
 ### 4. Databases
 
 The dataset consists of 112,120 X-ray images, with only 1,430 (1.27%) identified as Pneumonia Positive. To ensure an effective training and validation split, the following approach will be taken:

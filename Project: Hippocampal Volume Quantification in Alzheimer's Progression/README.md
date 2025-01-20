@@ -9,3 +9,6 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disorder that impair
 Humans possess two hippocampi, one in each hemisphere of the brain, situated in the medial temporal lobe. Interestingly, the term *hippocampus* originates from Greek and roughly translates to "horselike," reflecting its resemblance to a seahorse—an observation first noted by early anatomists who illustrated the structure.
 
 ![Hippo](https://github.com/1Px-Vision/AI_for_Healthcare/blob/main/Project%3A%20Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression/Hippocampus_small.gif)
+
+## Dataset Overview
+We are utilizing the Hippocampus dataset from the [Medical Decathlon](http://medicaldecathlon.com/) competition. This dataset consists of **NIFTI files**, where each volume has a corresponding segmentation mask. The original images are **T2-weighted** MRI scans of the full brain. For this study, we use cropped volumes, focusing only on the hippocampal region. This preprocessing step significantly reduces the dataset size, simplifies the machine learning task, and ensures reasonable training times. However, this should not be mistaken for a "toy" problem—cropping regions of interest is a common practice in medical imaging. Despite the reduction in scope, segmentation remains a challenging task.

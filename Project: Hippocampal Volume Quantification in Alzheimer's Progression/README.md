@@ -12,3 +12,12 @@ Humans possess two hippocampi, one in each hemisphere of the brain, situated in 
 
 ## Dataset Overview
 We are utilizing the Hippocampus dataset from the [Medical Decathlon](http://medicaldecathlon.com/) competition. This dataset consists of **NIFTI files**, where each volume has a corresponding segmentation mask. The original images are **T2-weighted** MRI scans of the full brain. For this study, we use cropped volumes, focusing only on the hippocampal region. This preprocessing step significantly reduces the dataset size, simplifies the machine learning task, and ensures reasonable training times. However, this should not be mistaken for a "toy" problem—cropping regions of interest is a common practice in medical imaging. Despite the reduction in scope, segmentation remains a challenging task.
+
+## The Programming Environment
+
+### Section 1: Curating a Dataset of Brain MRIs
+
+### Section 2: Training a segmentation CNN
+
+### Section 3: Integrating into a clinical network
+

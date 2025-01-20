@@ -6,4 +6,6 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disorder that impair
 
 ![DICOM](https://github.com/1Px-Vision/AI_for_Healthcare/blob/main/Project%3A%20Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression/DICOM.jpg)
 
+Humans possess two hippocampi, one in each hemisphere of the brain, situated in the medial temporal lobe. Interestingly, the term *hippocampus* originates from Greek and roughly translates to "horselike," reflecting its resemblance to a seahorse—an observation first noted by early anatomists who illustrated the structure.
+
 ![Hippo](https://github.com/1Px-Vision/AI_for_Healthcare/blob/main/Project%3A%20Hippocampal%20Volume%20Quantification%20in%20Alzheimer's%20Progression/Hippocampus_small.gif)
